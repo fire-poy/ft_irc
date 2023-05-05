@@ -1,0 +1,33 @@
+USER juan
+NICK pepito
+PASS asd
+JOIN
+JOIN #usa
+PRIVMSG #usa :hola!!!
+KICK raul
+KICK juanC
+KICK #usa raul :no te quiero ver mas
+LIST
+LIST #usa,#ARG
+TOPIC #ASPDJAPON
+TOPIC #usa
+TOPIC #usa :born to be wild
+TOPIC #usa
+MODE #usa -n 
+MODE #usa +n 
+MODE #usa +t 
+MODE #usa -o pepito
+TOPIC #usa :welcome to the jungle
+MODE #usa +i
+INVITE #usa raul
+MODE #usa +l 1
+MODE #usa +k asd
+NAMES #usa,ARG
+NOTICE #ASDSAD hola
+NOTICE #usa :jsuis au toilet
+PRIVMSG #usa :Quiero una hamburguesa
+PRIVMSG raul :Che raul deja esos pankakes!
+WHOIS raul
+WHOWAS raul
+PART #usa
+QUIT ME FUI
